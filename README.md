@@ -4,6 +4,27 @@
 Patient Zero est un remake du célèbre jeu Wolfenstein, un jeu d'exploration de labyrinthes.
 Vous incarnez un patient qui vient de se réveiller d'une opération et qui part à la recherche de sa fille dans un hôpital infesté de zombies.
 
+## Prérequis
+Pour compiler et exécuter ce projet, vous aurez besoin de :
+- GCC
+- Make
+- CSFML (`libcsfml-dev`)
+
+## Compilation
+Pour compiler le projet, exécutez simplement la commande suivante à la racine du dépôt :
+
+```bash
+make
+```
+
+## Utilisation
+Pour lancer le jeu, exécutez le fichier binaire compilé :
+
+```bash
+./wolf3d
+```
+Vous pouvez également utiliser `./wolf3d -h` ou `./wolf3d -help` pour afficher le message d'aide.
+
 ## Commandes
 
 ### Clavier et souris
